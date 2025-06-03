@@ -1,0 +1,39 @@
+# Node.js / Frontend projects
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+
+# macOS system files
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+jspm_packages/
+.typings/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Optional: Ignore output from various static site generators
+.out/
+.next/
+.cache/
+public/
+
+# Optional: Ignore images used temporarily
+temp/
+*.bak
