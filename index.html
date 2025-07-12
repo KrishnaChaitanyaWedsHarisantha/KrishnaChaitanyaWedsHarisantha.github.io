@@ -141,32 +141,9 @@
 
 
       <section class="countdown-wrapper center-wrapper" id="countdown-section">
-        <video id="groom-video" autoplay muted playsinline style="width: 100%; height: auto; display: block;">
-          <source src="./assets/groom.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <div style="text-align: center; margin-top: 10px;">
-          <button onclick="enableVideoAudio()" style="padding: 10px 20px; font-size: 16px; background-color: #674ea7; color: white; border: none; border-radius: 5px; cursor: pointer;">
-            🎶 Tap to Enable Sound
-          </button>
-        </div>
+        
         <h2 class="decorated-heading">Marriage begins in</h2>
-        <script>
-          document.addEventListener("DOMContentLoaded", function () {
-            const video = document.getElementById("groom-video");
-            video.volume = 0.05;
-            video.play().catch((e) => {
-              console.warn("Autoplay failed:", e);
-            });
-          });
-
-          function enableVideoAudio() {
-            const video = document.getElementById("groom-video");
-            video.muted = false;
-            video.volume = 0.3;
-            video.play();
-          }
-        </script>
+       
         <div id="countdown" class="simple-countdown">
           <div class="time-section">
             <div class="time-value" id="days">00</div>
